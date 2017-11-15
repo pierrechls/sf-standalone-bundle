@@ -48,7 +48,7 @@ Now your bundle structure should look something like this :
 │   │   ├── autoload.php
 │   │   └── console.php
 │
-├── .gitignore
+└── .gitignore
 ```
 
 #### Update the composer.json file of your bundle
@@ -58,7 +58,7 @@ Now your bundle structure should look something like this :
 ```json
 "autoload": {
     "psr-4": {
-        "Acme\\StandaloneBundle\\": ""
+        "AppBundle\\AppBundle\\": ""
     }
 }
 ```
