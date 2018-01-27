@@ -1,4 +1,4 @@
-[![version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)](https://github.com/pierrechls/sf-standalone-bundle)
+[![version](https://img.shields.io/badge/version-1.0.0-green.svg?style=for-the-badge)](https://github.com/pierrechls/sf-standalone-bundle) [![php-v](https://img.shields.io/badge/PHP-^5.6-blue.svg?style=for-the-badge)](https://github.com/pierrechls/sf-standalone-bundle) [![sf](https://img.shields.io/badge/symfony-^2.0.0-lightgrey.svg?style=for-the-badge)](https://github.com/pierrechls/sf-standalone-bundle)
 
 # sf-standalone-bundle
 
@@ -14,17 +14,10 @@ Create an *empty application* in your *bundle* to *test* it (manually or automat
 $ cd /path-to/the-bundle-project
 ```
 
-#### Create a test folder
+#### Clone the repo into a Tests folder
 
 ```bash
-$ mkdir Tests
-$ cd Tests
-```
-
-#### Clone the repo
-
-```bash
-$ git clone https://github.com/pierrechls/sf-standalone-bundle.git
+$ git clone https://github.com/pierrechls/sf-standalone-bundle.git Tests
 ```
 
 #### Your bundle structure
